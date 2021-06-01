@@ -19,8 +19,9 @@ library(TxDb.Mmusculus.UCSC.mm10.knownGene)
 library(clusterProfiler)
 
 ###
-
-NAME <- 'H3K4me3_ESE14.ENCFF469NFG.mm10'
+NAME <- 'H3K4me3_ESE14.intersect.ZDNA2'
+#NAME <- 'mouseZ-DNA2-cut'
+#NAME <- 'H3K4me3_ESE14.ENCFF469NFG.mm10'
 #NAME <- 'H3K4me3_ESE14.ENCFF815JHD.mm10'
 BED_FN <- paste0(DATA_DIR, NAME, '.bed')
 
