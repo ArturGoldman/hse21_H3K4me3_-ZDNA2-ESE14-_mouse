@@ -1,0 +1,24 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20210224)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.4735677 Released 2021-05-01
+Analyzed List:	Client Text Box Input (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Mus musculus - REFLIST (21988)	Client Text Box Input (74)	Client Text Box Input (expected)	Client Text Box Input (over/under)	Client Text Box Input (fold Enrichment)	Client Text Box Input (raw P-value)	Client Text Box Input (FDR)
+postsynapse organization (GO:0099173)	97	5	.33	+	15.32	2.39E-05	4.72E-02
+regulation of mRNA metabolic process (GO:1903311)	288	9	.97	+	9.29	6.61E-07	1.04E-02
+regulation of cellular amide metabolic process (GO:0034248)	420	10	1.41	+	7.07	1.68E-06	1.33E-02
+regulation of translation (GO:0006417)	361	8	1.21	+	6.58	3.27E-05	4.30E-02
+posttranscriptional regulation of gene expression (GO:0010608)	466	9	1.57	+	5.74	2.95E-05	4.22E-02
+tissue development (GO:0009888)	1654	17	5.57	+	3.05	2.95E-05	4.65E-02
+nucleic acid metabolic process (GO:0090304)	1754	18	5.90	+	3.05	1.66E-05	3.73E-02
+cellular nitrogen compound metabolic process (GO:0034641)	2808	24	9.45	+	2.54	9.84E-06	3.10E-02
+cellular macromolecule metabolic process (GO:0044260)	3960	31	13.33	+	2.33	1.98E-06	1.04E-02
+macromolecule metabolic process (GO:0043170)	5357	36	18.03	+	2.00	7.79E-06	3.07E-02
+nitrogen compound metabolic process (GO:0006807)	5748	37	19.34	+	1.91	1.38E-05	3.62E-02
+cellular metabolic process (GO:0044237)	6410	39	21.57	+	1.81	2.78E-05	4.88E-02
