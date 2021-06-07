@@ -5,9 +5,9 @@ source('lib.R')
 #NAME <- 'H3K4me3_ESE14.ENCFF469NFG.mm9'
 #NAME <- 'H3K4me3_ESE14.ENCFF469NFG.mm10'
 #NAME <- 'H3K4me3_ESE14.ENCFF815JHD.mm9'
-#NAME <- 'H3K4me3_ESE14.ENCFF815JHD.mm10'
+NAME <- 'H3K4me3_ESE14.ENCFF815JHD.mm10'
 #NAME <- 'mouseZ-DNA2-cut'
-NAME <- 'H3K4me3_ESE14.intersect.ZDNA2'
+#NAME <- 'H3K4me3_ESE14.intersect.ZDNA2'
 ###
 
 bed_df <- read.delim(paste0(DATA_DIR, NAME, '.bed'), as.is = TRUE, header = FALSE)
