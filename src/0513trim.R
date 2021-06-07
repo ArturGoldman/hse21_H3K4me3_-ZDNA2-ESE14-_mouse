@@ -6,9 +6,9 @@ source('lib.R')
 ###
 
 #NAME <- 'H3K4me3_ESE14.ENCFF469NFG.mm9'
-#NAME <- 'H3K4me3_ESE14.ENCFF469NFG.mm10'
+NAME <- 'H3K4me3_ESE14.ENCFF469NFG.mm10'
 #NAME <- 'H3K4me3_ESE14.ENCFF815JHD.mm9'
-NAME <- 'H3K4me3_ESE14.ENCFF815JHD.mm10'
+#NAME <- 'H3K4me3_ESE14.ENCFF815JHD.mm10'
 
 ###
 
@@ -27,8 +27,7 @@ ggplot(bed_df) +
   geom_histogram() +
   ggtitle(NAME, subtitle = sprintf('Number of peaks = %s', nrow(bed_df))) +
   theme_bw()
-#ggsave(paste0('len_hist.', NAME, '.filtered.pdf'), path = OUT_DIR)
-png(paste0('len_hist.', NAME, '.filtered.png'), path = OUT_DIR)
+ggsave(paste0('len_hist.', NAME, '.filtered.png'), path = OUT_DIR)
 
 
 bed_df %>%
