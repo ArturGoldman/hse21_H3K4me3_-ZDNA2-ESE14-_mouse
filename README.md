@@ -49,8 +49,14 @@ Filtered
 
 Example of intersection
 
+chr1:18537874-18537959
+
 ![alt text](https://github.com/ArturGoldman/hse21_H3K4me3_ZDNA2-ESE14_mouse/blob/main/screenshots/Screenshot%202021-06-01%20at%2022.15.03.png)
+
+chr1:20432407-20432495
+
 ![alt text](https://github.com/ArturGoldman/hse21_H3K4me3_ZDNA2-ESE14_mouse/blob/main/screenshots/Screenshot%202021-06-01%20at%2022.15.51.png)
+
 
 # Performed operations
 Get files:
